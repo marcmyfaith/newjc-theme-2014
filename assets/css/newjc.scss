@@ -1,6 +1,10 @@
 $primary: #cc3333;
 $secondary: #cc9933;
 
+a {
+	color: $primary;
+}
+
 .filter {
 	background-color: #cc3;
 	display: none;
@@ -48,7 +52,7 @@ header.contact {
 
 #billboard {
 	
-	position: relative;
+	padding: 0 15px;
 
 	.row {
 		.col-md-12 {
@@ -60,12 +64,29 @@ header.contact {
 
 }
 
-.current_page_item > a {
-	background-color: $secondary;
+.nav {
+	
+	a {
+		color: $secondary;
+		text-shadow: 1px 1px 1px #fff;
 
-	&:hover {
-		background-color: darken( $secondary, 3% );
+		&:hover { 
+			background-color: #fff;
+		}
+
 	}
+
+	.current_page_item > a {
+		background-color: $secondary;
+		color: #fff;
+		text-shadow: none;
+
+		&:hover {
+			background-color: darken( $secondary, 3% );
+			color: #fff;
+		}
+	}
+
 }
 
 .btn-primary {
