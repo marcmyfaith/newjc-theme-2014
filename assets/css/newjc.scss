@@ -3,6 +3,10 @@ $secondary: #cc9933;
 
 a {
 	color: $primary;
+
+	&:hover {
+		color: darken( $primary, 10% );
+	}
 }
 
 .filter {
@@ -89,7 +93,8 @@ header.contact {
 
 }
 
-.btn-primary {
+.btn-primary,
+.btn-group.open .dropdown-toggle {
 	background-color: $primary;
 	border-color: $primary;
 
@@ -97,4 +102,18 @@ header.contact {
 		background-color: darken( $primary, 3% );
 		border-color: darken( $primary, 3% );
 	}
+}
+
+.label-primary {
+	background-color: $secondary;
+}
+
+#upcoming-event {
+	border-bottom: 1px solid #ddd;
+}
+
+#footer-widgets {
+	background-color: #333;
+	padding: 20px 0;
+	color: #ddd;
 }

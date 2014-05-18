@@ -26,7 +26,7 @@
       </div><!--/.nav-collapse -->
    </div>
 </div>
-               
+
 <div id="navbar" class="container-fluid">
    <div class="container">
       <div class="row">
@@ -42,7 +42,7 @@
          </div>
          <div class="col-md-9 col-xs-12">
             <?php if ( has_nav_menu( 'header-menu' ) ): ?>
-               <?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container' => false, 'menu_class' => 'nav nav-pills header-menu hidden-xs hidden-s', 'walker' => new HeaderMenuWalker ) ); ?>
+               <?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container' => false, 'menu_class' => 'nav nav-pills header-menu hidden-xs hidden-s pull-right', 'walker' => new HeaderMenuWalker ) ); ?>
             <?php endif; ?>
          </div>
       </div>
