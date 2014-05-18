@@ -16,6 +16,9 @@ h2 {
   bottom: 0;
   opacity: .1; }
 
+.home header {
+  background-color: transparent; }
+
 #masthead {
   background: #333;
   background-image: url(../img/newjc-1822-side.jpg);
@@ -27,11 +30,12 @@ h2 {
   position: relative; }
 
 header.contact {
-  background-color: transparent;
-  color: #ddd; }
+  /*background-color: transparent;
+  color: #ddd;*/ }
   header.contact .filter {
     background-color: #333;
-    opacity: .9; }
+    opacity: .9;
+    display: none; }
 
 #navbar {
   background-color: transparent;
