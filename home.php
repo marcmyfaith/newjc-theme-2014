@@ -33,7 +33,7 @@
                      </h2>
                      <p><a href="<?php echo home_url(); ?>/events">View all events</a></p>
                   </div>
-                  <div class="col-sm-4 col-md-3 col-xs-7">
+                  <div class="col-sm-4 col-md-3 col-sm-7 col-xs-12">
                       <h4>Event Begins In</h4>
                      <div class="event-countdown event-countdown-small" data-date="<?php echo $upcoming_event->date ?>" style="display: none;">
                         <div class="timer-col"><span id="days" class="label label-primary"></span><span class="timer-type">days</span></div>
