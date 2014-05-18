@@ -51,7 +51,6 @@
             <?php endif; ?>
          </div>
       </div>
-   </div>
-
+   </div><!-- .container -->
    <div class="filter"></div>
 </div><!-- #navbar -->
