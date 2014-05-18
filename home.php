@@ -46,7 +46,7 @@
                      <?php if( $upcoming_event->ticket_id ): ?>
                         <a type="button" class="btn btn-lg btn-primary" href="<?php echo $upcoming_event->permalink ?>">Buy Ticket $<?php echo isset($upcoming_event->ticket->meta['product_price'][0]) ? round($upcoming_event->ticket->meta['product_price'][0]) : '' ?></a>
                      <?php else: ?>
-                        <a type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown">View Event</a>
+                        <a type="button" class="btn btn-primary btn-lg" style="margin-top: 29px;">View Event</a>
                      <?php endif; ?>
                   </div>
                </div>
