@@ -9,6 +9,10 @@ a {
 	}
 }
 
+h2 {
+	font-weight: 200;
+}
+
 .filter {
 	background-color: #cc3;
 	display: none;
@@ -109,11 +113,18 @@ header.contact {
 }
 
 #upcoming-event {
-	border-bottom: 1px solid #ddd;
+	background-image: url(../img/light_grey.png);
+	/*border-bottom: 1px solid #ddd;
+
+	.btn-primary {
+		background-color: $secondary;
+		border-color: $secondary;
+	}*/
 }
 
-#footer-widgets {
+footer { 
 	background-color: #333;
-	padding: 20px 0;
+	background-image: url(../img/congruent_outline.png);
+	padding: 30px 0;
 	color: #ddd;
 }
