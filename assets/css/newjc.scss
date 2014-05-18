@@ -28,6 +28,17 @@ h2 {
 	background-color: transparent;
 }
 
+#mobile-menu {
+	.navbar-brand {
+		padding: 3px 10px;
+
+		img {
+			max-height: 42px;
+		}
+
+	}
+}
+
 #masthead {
 
 	background: #333; 
@@ -103,7 +114,7 @@ header.contact {
 }
 
 #page-title {
-	
+
 }
 
 .btn-primary,

@@ -18,7 +18,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
          </button>
-         <a class="navbar-brand" href="<?php echo home_url(); ?>"><?php echo get_bloginfo(); ?></a>
+         <?php if ( get_theme_mod( 'stencil_logo' ) ) : ?>
+            <a class="navbar-brand logo" href='<?php echo esc_url( home_url( '/' ) ); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><img src='<?php echo esc_url( get_theme_mod( 'stencil_logo' ) ); ?>' alt='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>'></a>
+         <?php else : ?>
+            <a class="navbar-brand" href="<?php echo home_url(); ?>"><?php echo get_bloginfo(); ?></a>
+         <?php endif; ?>
+         
       </div>
       <div class="collapse navbar-collapse">
          <?php if ( has_nav_menu( 'contact-menu' ) ) wp_nav_menu( array( 'theme_location' => 'contact-menu', 'container' => false, 'menu_class' => 'nav navbar-nav contact-menu' ) ); ?>

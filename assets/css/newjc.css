@@ -19,6 +19,11 @@ h2 {
 .home header {
   background-color: transparent; }
 
+#mobile-menu .navbar-brand {
+  padding: 3px 10px; }
+  #mobile-menu .navbar-brand img {
+    max-height: 42px; }
+
 #masthead {
   background: #333;
   background-image: url(../img/newjc-1822-side.jpg);
