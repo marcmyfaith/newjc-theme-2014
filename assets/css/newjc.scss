@@ -150,4 +150,8 @@ footer {
 	background-image: url(../img/congruent_outline.png);
 	padding: 30px 0;
 	color: #ddd;
+
+	h4 {
+		color: $secondary;
+	}
 }
