@@ -44,7 +44,8 @@ header.contact {
 
 #navbar {
   background-color: transparent;
-  padding: 10px 0; }
+  padding: 10px 0;
+  border-top: 1px solid #eee; }
   #navbar .filter {
     background-color: #fff; }
 
@@ -69,6 +70,9 @@ header.contact {
   .nav .current_page_item > a:hover {
     background-color: #c09030;
     color: #fff; }
+
+#main {
+  background-image: url(../img/cream_dust.png); }
 
 .btn-primary,
 .btn-group.open .dropdown-toggle {

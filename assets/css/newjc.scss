@@ -67,7 +67,8 @@ header.contact {
 #navbar {
 	background-color: transparent;
 	padding: 10px 0;
-
+	border-top: 1px solid #eee;
+	
 	.filter {
 		background-color: #fff;
 	}
@@ -116,8 +117,8 @@ header.contact {
 
 }
 
-#page-title {
-
+#main {
+	background-image: url(../img/cream_dust.png);
 }
 
 .btn-primary,
