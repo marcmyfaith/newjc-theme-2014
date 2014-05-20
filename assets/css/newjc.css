@@ -92,9 +92,7 @@ header.contact {
   	}*/ }
 
 footer {
-  background-color: #333;
   background-image: url(../img/congruent_outline.png);
-  padding-top: 30px;
   color: #ddd; }
   footer h4 {
     color: #cc9933; }
@@ -104,9 +102,3 @@ footer {
     footer ul li {
       border-bottom: 1px solid #555;
       padding: 10px 0; }
-  footer #copyright {
-    background-color: #222;
-    padding: 15px 0; }
-    footer #copyright p {
-      margin-bottom: 0;
-      font-weight: 300; }
