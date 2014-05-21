@@ -15,8 +15,6 @@
          </div>
       </div>
 
-      <div class="filter"></div>
-
    </div><!-- #masthead -->
 
    <?php if ( is_plugin_active( 'lemonbox-events/lemonbox-events.php' ) ): ?>

@@ -19,33 +19,30 @@ h2 {
 .home header {
   background-color: transparent; }
 
-#mobile-menu .navbar-brand {
-  padding: 3px 10px; }
-  #mobile-menu .navbar-brand img {
-    max-height: 42px; }
-
 #masthead {
-  background: #333;
+  background-color: #333;
   background-image: url(../img/newjc-1822-side.jpg);
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: 30%;
   color: #ddd;
   padding: 0;
-  position: relative; }
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 0; }
+  #masthead > .underlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0; }
 
-header.contact {
-  /*background-color: transparent;
-  color: #ddd;*/ }
-  header.contact .filter {
-    background-color: #333;
-    opacity: .9;
-    display: none; }
+header.contact .filter {
+  background-color: #333;
+  opacity: .9;
+  display: none; }
 
 #navbar {
-  background-color: transparent;
-  padding: 10px 0;
-  border-top: 1px solid #eee; }
+  background-color: transparent; }
   #navbar .filter {
     background-color: #fff; }
 
