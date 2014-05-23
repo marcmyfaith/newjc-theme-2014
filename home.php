@@ -8,7 +8,7 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12 text-center">
-                  <h1>An innovative church, passionately resolving homelessness in Greensboro and North Carolina</h1>
+                  <h1>An innovative church that provokes the culture of the kingdom of God</h1>
                   <p><a class="btn btn-primary btn-lg" role="button" href="<?php echo home_url(); ?>/homelessness">Learn more</a></p>
                </div>
             </div>
