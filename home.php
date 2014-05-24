@@ -54,7 +54,7 @@
             </div>
             <div class="col-md-8">
                <h2>Dr. Kevin Williams <small>Senior Pastor</small></p>
-               <p class="lead">Dr. Williams is a prolific speaker, teacher, preacher, and eductor. He is an author of rising acclaim and the expert of turning points, with his new book release, "Turning Point".</p>
+               <p class="lead">Dr. Williams is a prolific speaker, teacher, preacher, and educator. He is an author of rising acclaim and the expert of turning points highlighted in his new book release, "Turning Point".</p>
                <p><a href="<?php echo home_url( 'leadership' ); ?>" class="">View Church Leadership</a> | <a href="https://twitter.com/DrKAWilliams">Follow on Twitter</a></p>
             </div>
          </div>
