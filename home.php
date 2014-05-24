@@ -1,6 +1,8 @@
-<?php get_header(); ?>
-   
-   <div id="masthead" class="container-fluid"> 
+<?php 
+   get_header(); 
+   include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+?>
+   <header id="header" class="container-fluid"> 
 
       <?php get_template_part( 'parts/nav' ); ?>
 
@@ -8,14 +10,15 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12 text-center">
-                  <h1>An innovative church that provokes the culture of the kingdom of God</h1>
+                  <h1>An Innovative Church That Provokes the Culture of the Kingdom of God</h1>
                   <p><a class="btn btn-primary btn-lg" role="button" href="<?php echo home_url(); ?>/homelessness">Learn more</a></p>
                </div>
             </div>
          </div>
       </div>
 
-   </div><!-- #masthead -->
+      <div class="filter"></div>
+   </header><!-- #masthead -->
 
    <?php if ( is_plugin_active( 'lemonbox-events/lemonbox-events.php' ) ): ?>
       
