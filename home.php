@@ -29,11 +29,11 @@
             <div class="col-md-7">
                <h2>First Time Visitors</h2>
                <p>Visiting anywhere by yourself for the first time can be pretty intimidating. We want to make sure your visit to any one of our services exceeds your expectations. To do that, we have prepared this quick overview of what you can expect upon arrival.</p>
-               <p><a class="btn btn-warning">Welcome Home</a></p>
+               <p><a class="btn btn-warning" href="<?php echo home_url( '/faqs/first-time-visitors/' ); ?>">Welcome Home</a></p>
                <p>&nbsp;</p>
                <h2>Get Connected</h2>
                <p>With a church that serves over 3,000 members and hundreds of guests each week, one can easily get lost in the crowd. To remedy this, we connect members with opportunities to serve God and our city by creating a close-knit community of believers.</p>
-               <p><a class="btn btn-warning">Find Your Calling</a></p>
+               <p><a class="btn btn-warning" href="<?php echo home_url( '/connect' ); ?>">Find Your Calling</a></p>
             </div>
             <div class="col-md-4 col-md-offset-1">
                <?php dynamic_sidebar( 'Sidebar' ); ?>
