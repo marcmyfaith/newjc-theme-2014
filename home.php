@@ -47,30 +47,19 @@
    <div id="main" class="container-fluid">
       <div class="container">
          <div class="row">
-            <div class="col-md-4">
-               <div class="thumbnail">
-                  <img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/dr-kevin-williams-square.jpg' ?>" />
+            <div class="col-md-3">
+               <div class="thumbnail tall">
+                  <img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/dr-kevin-williams.jpg' ?>" />
                </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-7">
                <h2>Dr. Kevin Williams <small>Senior Pastor</small></p>
                <p class="lead">Dr. Williams is a prolific speaker, teacher, preacher, and educator. He is an author of rising acclaim and the expert of turning points highlighted in his new book release, "Turning Point".</p>
-               <p><a href="<?php echo home_url( 'leadership' ); ?>" class="">View Church Leadership</a> | <a href="https://twitter.com/DrKAWilliams">Follow on Twitter</a></p>
+               <p><a href="<?php echo home_url( 'leadership' ); ?>" class="">View Church Leadership</a> | <a href="https://twitter.com/DrKAWilliams" target="_blank">Follow on Twitter</a></p>
             </div>
-         </div>
-      </div>
-   </div>
-
-   <div id="main" class="content container-fluid hide">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-8">
-               <h2>Latest News</h2>
+            <div class="col-md-2 text-center">
                <p>&nbsp;</p>
-               <?php get_template_part( 'parts/post/loop' ); ?>
-            </div>
-            <div class="col-md-3 col-md-offset-1">
-               
+               <p><img src="<?php echo get_stylesheet_directory_uri(). '/assets/img/newjc-seal.png' ?>"></p>
             </div>
          </div>
       </div>

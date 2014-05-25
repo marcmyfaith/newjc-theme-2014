@@ -1,5 +1,5 @@
 $primary: #cc3333;
-$secondary: #f0ad4e;
+$secondary: #ed9c28;
 
 body {
 	background-image: url(../img/newjc-1822-crowd-shot-filtered.jpg);
@@ -130,7 +130,12 @@ header.contact {
 
 }
 
-.nav-pills > li {
+
+.page #main .thumbnail.tall {
+	margin-left: -80px;
+}
+
+.home .nav-pills > li {
 
 	> a {
 		border-radius: 2px;
@@ -278,9 +283,9 @@ header.contact {
 
 		li {	
 			border-bottom: 1px solid #eee;
+			padding: 10px 0;
 
 			a {
-				padding: 10px 0;
 				display: block;
 			}
 		}
@@ -319,4 +324,11 @@ footer {
 		text-align: center;
 	}
 
+	#quick-links {
+
+		.col-md-7 {
+			margin-bottom: 50px;
+		}
+
+	}
 }
