@@ -20,6 +20,7 @@ a {
 
 h1 {
 	font-size: 48px;
+	margin-bottom: 20px;
 }
 
 h1,
@@ -262,6 +263,11 @@ header.contact {
 		li {
 			
 		}
+	}
+
+	.current_page_item > a {
+		background-color: transparent;
+		color: #222;
 	}
 }
 

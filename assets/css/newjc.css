@@ -12,7 +12,8 @@ a {
     color: #a32929; }
 
 h1 {
-  font-size: 48px; }
+  font-size: 48px;
+  margin-bottom: 20px; }
 
 h2 {
   font-weight: 200; }
@@ -150,6 +151,9 @@ header.contact .filter {
   margin: 0;
   padding: 0;
   list-style: none; }
+.stencil-widget .current_page_item > a {
+  background-color: transparent;
+  color: #222; }
 
 .home #quick-links {
   padding: 80px 0;
