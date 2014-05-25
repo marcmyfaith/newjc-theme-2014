@@ -195,9 +195,6 @@ footer {
       padding: 10px 0; }
 
 @media (max-width: 768px) {
-  html {
-    background-size: 100%; }
-
   #upcoming-event {
     text-align: center; }
 
