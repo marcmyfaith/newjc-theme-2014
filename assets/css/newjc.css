@@ -157,17 +157,21 @@ header.contact .filter {
   position: relative; }
   .home #quick-links .container {
     padding: 30px; }
-  .home #quick-links .stencil-widget {
-    padding: 10px 20px;
-    background-color: #fff;
-    border-radius: 3px;
-    color: #777;
-    margin-bottom: 20px; }
-    .home #quick-links .stencil-widget li {
-      border-bottom: 1px solid #eee;
-      padding: 10px 0; }
-      .home #quick-links .stencil-widget li a {
-        display: block; }
+
+#main .stencil-widget,
+#quick-links .stencil-widget {
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 3px;
+  color: #777;
+  margin-bottom: 20px; }
+  #main .stencil-widget li,
+  #quick-links .stencil-widget li {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0; }
+    #main .stencil-widget li a,
+    #quick-links .stencil-widget li a {
+      display: block; }
 
 .home #main {
   padding: 40px 0;

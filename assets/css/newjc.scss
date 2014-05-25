@@ -274,20 +274,22 @@ header.contact {
 		padding: 30px; 
 	}
 
-	.stencil-widget {
-		padding: 10px 20px;
-		background-color: #fff;
-		border-radius: 3px;
-		color: #777;
-		margin-bottom: 20px;
+}
 
-		li {	
-			border-bottom: 1px solid #eee;
-			padding: 10px 0;
+#main .stencil-widget,
+#quick-links .stencil-widget {
+	padding: 10px 20px;
+	background-color: #fff;
+	border-radius: 3px;
+	color: #777;
+	margin-bottom: 20px;
 
-			a {
-				display: block;
-			}
+	li {	
+		border-bottom: 1px solid #eee;
+		padding: 10px 0;
+
+		a {
+			display: block;
 		}
 	}
 }
