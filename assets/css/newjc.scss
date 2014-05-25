@@ -1,13 +1,17 @@
 $primary: #cc3333;
 $secondary: #ed9c28;
 
-body {
+html {
 	background-image: url(../img/newjc-1822-crowd-shot-filtered.jpg);
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 	background-size: cover;
 	background-position-x: center;
 	background-position-y: 0;
+}
+
+body {
+	
 }
 
 a {
