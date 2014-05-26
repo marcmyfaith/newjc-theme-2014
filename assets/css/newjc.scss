@@ -1,15 +1,6 @@
 $primary: #cc3333;
 $secondary: #ed9c28;
 
-html {
-	background-image: url(../img/newjc-1822-crowd-shot-filtered.jpg);
-	background-repeat: no-repeat;
-	background-attachment:fixed;
-	background-size: cover;
-	background-position-x: center;
-	background-position-y: 0;
-}
-
 body {
 	
 }
@@ -55,6 +46,29 @@ h2 {
 
 }
 
+body {
+
+	> .background {
+		background-repeat: no-repeat;
+		/* background-attachment: fixed; */
+		background-size: cover;
+		background-position-x: center;
+		background-position-y: 0;
+		position: fixed;
+		display: block; 
+		width: 100%;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: -1;
+
+	}
+
+	> .background {
+		background-image: url(../img/newjc-1822-crowd-shot-filtered.jpg);
+	}
+}
 #header {
 
 	height: 100%;
