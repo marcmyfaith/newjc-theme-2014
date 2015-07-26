@@ -10,9 +10,10 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12 text-center">
-                  <h1>An Innovative Church That Provokes the Culture of the Kingdom of God</h1>
+                  <!-- <h1>An Innovative Church That Provokes the Culture of the Kingdom of God</h1> -->
+                  <h1>New Jerusalem Cathedral is turning 40 and we're celebrating in a BIG way!</h1>
                   <p>&nbsp;</p>
-                  <p><a class="btn btn-warning btn-lg" role="button" href="<?php echo home_url(); ?>/homelessness">Learn more</a></p>
+                  <p><a class="btn btn-warning btn-lg" role="button" href="<?php echo home_url(); ?>/convocation">Join Us</a></p>
                </div>
             </div>
          </div>
