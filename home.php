@@ -6,14 +6,19 @@
 
       <?php get_template_part( 'parts/nav' ); ?>
 
-      <div id="billboard" class="container-fluid">
+      <div id="billboard" class="container-fluid" style="padding-top: 30px;">
          <div class="container">
             <div class="row">
-               <div class="col-md-12 text-center">
+               <div class="col-md-4">
+                  <img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/les-brown-profile.png' ?>" />
+               </div>
+               <div class="col-md-18">
                   <!-- <h1>An Innovative Church That Provokes the Culture of the Kingdom of God</h1> -->
-                  <h1>New Jerusalem Cathedral is turning 40 and we're celebrating in a BIG way!</h1>
+                  <h2>Celebrate 40 Years of Legacy</h2>
+                  <h1 class="highlight">Evening of Empowerment<br /><small style="display: block; line-height: 30px;">Sunday September, 13th, 2015 @ 7PM<br />Koury Convention Center</small></h1>
+                  <h2 style="font-style: italic;">w/ Les Brown, <small style="color: white;">World Renowned Motivational Speaker</small></h2>
                   <p>&nbsp;</p>
-                  <p><a class="btn btn-warning btn-lg" role="button" href="<?php echo home_url(); ?>/convocation">Join Us</a></p>
+                  <p><a class="btn btn-default btn-lg bordered" role="button" href="<?php echo home_url(); ?>/les-brown" style="background-color: #00aff4; border-color: #00aff4; color: #fff;">Be There</a></p>
                </div>
             </div>
          </div>

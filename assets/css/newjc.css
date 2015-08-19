@@ -6,6 +6,9 @@ a {
 h1 {
   font-size: 48px;
   margin-bottom: 20px; }
+  h1.highlight {
+    background-color: #cc3333;
+    padding: 10px; }
 
 h2 {
   font-weight: 200; }
@@ -37,7 +40,7 @@ body > .background {
   right: 0;
   z-index: -1; }
 body > .background {
-  background-image: url(../img/newjc-1822-crowd-shot-filtered.jpg); }
+  background-image: url(../img/fireworks.jpg); }
 
 #header {
   height: 100%;
@@ -209,3 +212,5 @@ footer {
 
   #quick-links .col-md-7 {
     margin-bottom: 50px; } }
+
+/*# sourceMappingURL=newjc.css.map */

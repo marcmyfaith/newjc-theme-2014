@@ -16,6 +16,15 @@ a {
 h1 {
 	font-size: 48px;
 	margin-bottom: 20px;
+
+	&.highlight {
+		background-color: $primary;
+		padding: 10px;
+	}
+}
+
+.fantasy {
+
 }
 
 h1,
@@ -66,7 +75,7 @@ body {
 	}
 
 	> .background {
-		background-image: url(../img/newjc-1822-crowd-shot-filtered.jpg);
+		background-image: url(../img/fireworks.jpg);
 	}
 }
 #header {
@@ -221,6 +230,7 @@ header.contact {
 		background-color: darken( $primary, 3% );
 		border-color: darken( $primary, 3% );
 	}
+
 }
 
 
