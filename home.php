@@ -12,7 +12,7 @@
                <div class="col-md-4">
                   <img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/les-brown-profile.png' ?>" />
                </div>
-               <div class="col-md-18">
+               <div class="col-md-8">
                   <!-- <h1>An Innovative Church That Provokes the Culture of the Kingdom of God</h1> -->
                   <h2>Celebrate 40 Years of Legacy</h2>
                   <h1 class="highlight">Evening of Empowerment<br /><small style="display: block; line-height: 30px;">Sunday September, 13th, 2015 @ 7PM<br />Koury Convention Center</small></h1>
