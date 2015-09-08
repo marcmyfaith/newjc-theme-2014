@@ -15,7 +15,7 @@
                <div class="col-md-8">
                   <!-- <h1>An Innovative Church That Provokes the Culture of the Kingdom of God</h1> -->
                   <h2>Celebrate 40 Years of Legacy</h2>
-                  <h1 class="highlight">Evening of Empowerment<br /><small style="display: block; line-height: 30px;">Sunday September, 13th, 2015 @ 7PM<br />Koury Convention Center</small></h1>
+                  <h1 class="highlight">Evening of Empowerment<br /><small style="display: block; line-height: 30px;">Sunday September, 13th, 2015 @ 6PM<br />Koury Convention Center</small></h1>
                   <h2 style="font-style: italic;">With Les Brown, <small style="color: white;">World Renowned Motivational Speaker</small></h2>
                   <p>&nbsp;</p>
                   <p><a class="btn btn-default btn-lg bordered" role="button" href="<?php echo home_url(); ?>/les-brown" style="background-color: #00aff4; border-color: #00aff4; color: #fff;">Be There</a></p>
