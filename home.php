@@ -1,12 +1,12 @@
-<?php 
-   get_header(); 
+<?php
+   get_header();
    include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 ?>
-   <header id="header" class="container-fluid"> 
+   <header id="header" class="container-fluid">
 
       <?php get_template_part( 'parts/nav' ); ?>
 
-      <div id="billboard" class="container-fluid" style="padding-top: 30px;">
+      <!-- <div id="billboard" class="container-fluid" style="padding-top: 30px;">
          <div class="container">
             <div class="row">
                <div class="col-md-12 text-center">
@@ -16,8 +16,8 @@
                </div>
             </div>
          </div>
-      </div>
-
+      </div> -->
+      <?php echo do_shortcode('[sermon]'); ?>
       <div class="filter"></div>
    </header><!-- #header -->
 
