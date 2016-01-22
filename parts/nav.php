@@ -1,3 +1,4 @@
+<div style="background-color: red; display: block; color: white; z-index: 10; text-align: center; padding: 15px;">Alpha Revival is cancelled tonight, Friday, January 22nd, due to inclimate weather.</div>
 <div id="navbar" class="container-fluid">
    <div class="container">
       <div class="row">
