@@ -1,4 +1,4 @@
-<div style="background-color: red; display: block; color: white; z-index: 10; text-align: center; padding: 15px;">Alpha Revival is cancelled tonight, Friday, January 22nd, due to inclimate weather.</div>
+<div style="background-color: red; display: block; color: white; z-index: 10; text-align: center; padding: 15px;">All services will be held on Sunday, Janaury 23, 2016.</div>
 <div id="navbar" class="container-fluid">
    <div class="container">
       <div class="row">
