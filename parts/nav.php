@@ -1,4 +1,4 @@
-<div style="background-color: red; display: block; color: white; z-index: 10; text-align: center; padding: 15px;"><strong>Weather Status:</strong> All services will be held on Sunday, Janaury 23, 2016. Drive safe!</div>
+<div style="background-color: red; display: block; color: white; z-index: 10; text-align: center; padding: 15px; display: none;"></div>
 <div id="navbar" class="container-fluid">
    <div class="container">
       <div class="row">
