@@ -1,4 +1,4 @@
-<div style="background-color: red; display: block; color: white; z-index: 10; text-align: center; padding: 15px;"><strong>Monday Feb. 15, 2016</strong> Monday Night Bible Study is cancelled due to freezing rain and varying road conditions. Please be safe.</div>
+<div style="background-color: red; display: none; color: white; z-index: 10; text-align: center; padding: 15px;"><strong>Monday Feb. 15, 2016</strong> Monday Night Bible Study is cancelled due to freezing rain and varying road conditions. Please be safe.</div>
 <div id="navbar" class="container-fluid">
    <div class="container">
       <div class="row">

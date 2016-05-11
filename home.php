@@ -6,18 +6,18 @@
 
       <?php get_template_part( 'parts/nav' ); ?>
 
-      <!-- <div id="billboard" class="container-fluid" style="padding-top: 30px;">
+      <div id="billboard" class="container-fluid" style="padding-top: 30px; background-image: url(<?php echo get_stylesheet_directory_uri() . '/assets/img/kurt-carr.jpg' ?>); background-size: cover; background-position: center; min-height: 630px;">
          <div class="container">
             <div class="row">
                <div class="col-md-12 text-center">
-                  <h1>An Innovative Church That Provokes the Culture of the Kingdom of God</h1>
-                  <p>&nbsp;</p>
-                  <p><a class="btn btn-warning btn-lg" role="button" href="<?php echo home_url(); ?>/homelessness">Learn more</a></p>
+                  <h1>National Award-Winning Gospel Artist Kurt Carr</h1>
+                  <p>Will be hosting a choir workshop open to the public, May 25-26th, followed by a FREE concert on May 27th!</p>
+                  <p><a class="btn btn-warning btn-lg" role="button" href="http://newjc.org/product/kurt-carr-choir-workshop-registration/">Register Now</a></p>
                </div>
             </div>
          </div>
-      </div> -->
-      <?php echo do_shortcode('[sermon]'); ?>
+      </div>
+      <?php // echo do_shortcode('[sermon]'); ?>
       <div class="filter"></div>
    </header><!-- #header -->
 
