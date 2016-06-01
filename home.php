@@ -6,7 +6,7 @@
 
       <?php get_template_part( 'parts/nav' ); ?>
 
-      <div id="billboard" class="container-fluid" style="padding-top: 30px; background-image: url(<?php echo get_stylesheet_directory_uri() . '/assets/img/kurt-carr.jpg' ?>); background-size: cover; background-position: center; min-height: 630px;">
+      <!-- <div id="billboard" class="container-fluid" style="padding-top: 30px; background-image: url(<?php echo get_stylesheet_directory_uri() . '/assets/img/kurt-carr.jpg' ?>); background-size: cover; background-position: center; min-height: 630px;">
          <div class="container">
             <div class="row">
                <div class="col-md-12 text-center">
@@ -16,8 +16,8 @@
                </div>
             </div>
          </div>
-      </div>
-      <?php // echo do_shortcode('[sermon]'); ?>
+      </div> -->
+      <?php echo do_shortcode('[sermon]'); ?>
       <div class="filter"></div>
    </header><!-- #header -->
 
