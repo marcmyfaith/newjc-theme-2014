@@ -206,6 +206,12 @@ footer {
       border-bottom: 1px solid #555;
       padding: 10px 0; }
 
+ul.list {
+  padding-left: 0;
+  list-style: none; }
+  ul.list li {
+    padding: 10px 0; }
+
 @media (max-width: 768px) {
   #upcoming-event {
     text-align: center; }

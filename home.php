@@ -71,20 +71,22 @@
          <div class="row">
             <h2>A Special Thank You to Our 2016 Ministry Sponsors</h2>
             <div class="col-md-3">
-               <ul>
+               <ul class="list">
                   <li>Wrights Care Services</li>
                </ul>
             </div>
             <div class="col-md-3">
-               <ul>
+               <ul class="list">
                   <li>Johnson's Day Care</li>
                </ul>
             </div>
             <div class="col-md-3">
-               <ul>
+               <ul class="list">
                   <li>Regional Memorial Cremations</li>
                </ul>
             </div>
+         </div>
+         <div class="row">
             <p><a class="btn btn-warning" href="<?php echo home_url( '/sponsors' ); ?>">View All</a></p>
          </div>
       </div>
