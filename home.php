@@ -18,7 +18,17 @@
             </div>
          </div>
       </div> -->
-      <?php echo do_shortcode('[sermon]'); ?>
+      <?php // echo do_shortcode('[sermon]'); ?>
+      <div id="billboard" class="container-fluid">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <h1>An Innovative Church That Provokes the Culture of the Kingdom of God</h1>
+                  <p><a class="btn btn-warning btn-lg" role="button" href="<?php echo home_url(); ?>/homelessness">Learn More</a></p>
+               </div>
+            </div>
+         </div>
+      </div>
       <div class="filter"></div>
    </header><!-- #header -->
 
