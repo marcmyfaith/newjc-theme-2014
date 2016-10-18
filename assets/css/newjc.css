@@ -213,6 +213,9 @@ ul.list {
     padding: 10px 0; }
 
 @media (max-width: 768px) {
+  #billboard {
+    min-height: 230px; }
+
   #upcoming-event {
     text-align: center; }
 

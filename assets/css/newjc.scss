@@ -365,6 +365,10 @@ ul.list {
 
 @media (max-width: 768px) {
 
+	#billboard {
+		min-height: 230px;
+	}
+
 	#upcoming-event {
 		text-align: center;
 	}
