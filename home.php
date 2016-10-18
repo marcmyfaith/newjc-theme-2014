@@ -23,7 +23,7 @@
             </div>
          </div>
 	 </div>-->
-      <div class="filter"></div>
+      <div class="filter" style="display: none;"></div>
    </header><!-- #header -->
 
    <?php echo do_shortcode('[upcoming_event]'); ?>
