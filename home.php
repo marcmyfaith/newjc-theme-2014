@@ -6,20 +6,14 @@
 
       <?php get_template_part( 'parts/nav' ); ?>
 
-      <!-- <div id="billboard" class="container-fluid" style="padding-top: 30px; background-image: url(<?php echo get_stylesheet_directory_uri() . '/assets/img/universoul-circus-event.jpg' ?>); background-size: cover; background-position: center; min-height: 630px;">
+      <div id="billboard" class="container-fluid" style="padding-top: 30px; background-image: url(<?php echo get_stylesheet_directory_uri() . '/assets/img/newjc-west.jpg' ?>); background-size: cover; background-position: center; min-height: 630px;">
          <div class="container">
             <div class="row">
-               <div class="col-md-12 text-center">
-                  <img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/universoul-circus-logo.png' ?>" style="max-width: 300px;" />
-                  <h1>NJC Family &amp; Friends Night at the Universoul Circus</h1>
-                  <p>Wednesday June 22nd our Pastor, Dr. Kevin Williams will be the Guest Ringmaster along with the NJC Praise Team. You don't want to miss this family affair!</p>
-                  <p><a class="btn btn-warning btn-lg" role="button" href="http://newjc.org/product/universoul-circus-ticket/">Purchase Tickets</a></p>
-               </div>
             </div>
          </div>
-      </div> -->
+      </div>
       <?php // echo do_shortcode('[sermon]'); ?>
-      <div id="billboard" class="container-fluid">
+      <!-- <div id="billboard" class="container-fluid">
          <div class="container">
             <div class="row">
                <div class="col-md-12 text-center">
@@ -28,7 +22,7 @@
                </div>
             </div>
          </div>
-      </div>
+	 </div>-->
       <div class="filter"></div>
    </header><!-- #header -->
 
