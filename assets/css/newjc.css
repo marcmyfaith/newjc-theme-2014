@@ -82,7 +82,8 @@ header.contact .filter {
   background-color: transparent; }
 
 #billboard {
-  padding: 0 15px; }
+  padding: 0 15px;
+  min-height: 630px; }
   #billboard .row .col-md-12 {
     padding: 6% 0;
     z-index: 1;

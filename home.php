@@ -6,7 +6,7 @@
 
       <?php get_template_part( 'parts/nav' ); ?>
 
-      <div id="billboard" class="container-fluid" style="padding-top: 30px; background-image: url(<?php echo get_stylesheet_directory_uri() . '/assets/img/newjc-west.jpg' ?>); background-size: cover; background-position: center; min-height: 630px;">
+      <div id="billboard" class="container-fluid" style="padding-top: 30px; background-image: url(<?php echo get_stylesheet_directory_uri() . '/assets/img/newjc-west.jpg' ?>); background-size: cover; background-position: center;">
          <div class="container">
             <div class="row">
             </div>
